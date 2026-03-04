@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5E8C320D2F566AA600E4D8F6 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8C320C2F566AA600E4D8F6 /* ReviewViewController.swift */; };
+		5E8C320F2F566B0500E4D8F6 /* ReciepeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8C320E2F566B0500E4D8F6 /* ReciepeViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		5E54DA5D2F54E15E00AA29CE /* SamBostonAssign3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamBostonAssign3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8C320C2F566AA600E4D8F6 /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		5E8C320E2F566B0500E4D8F6 /* ReciepeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReciepeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +52,8 @@
 		5E54DA542F54E15E00AA29CE = {
 			isa = PBXGroup;
 			children = (
+				5E8C320E2F566B0500E4D8F6 /* ReciepeViewController.swift */,
+				5E8C320C2F566AA600E4D8F6 /* ReviewViewController.swift */,
 				5E54DA5F2F54E15E00AA29CE /* SamBostonAssign3 */,
 				5E54DA5E2F54E15E00AA29CE /* Products */,
 			);
@@ -132,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8C320F2F566B0500E4D8F6 /* ReciepeViewController.swift in Sources */,
+				5E8C320D2F566AA600E4D8F6 /* ReviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
